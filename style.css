@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input, button {
+    width: 100%;
+    font-size: 1.2rem;
+    height: 3rem;
+    border-radius: 0.8rem;
+    outline: none;
+}
+
+input{
+    padding: 10px;
+    border: 2px solid grey;
+    margin: 1rem 0 1.5rem;
+}
+
+input:focus {
+    border-color: lightblue;
+}
+
+button {
+    padding: 15px;
+    background-color: lightblue;
+    border: none;
+    outline: none;
+    box-shadow: 0 0.5rem 0.6rem lightgray;
+}
+
+button:hover{
+    background-color: #a3d2ca;
+    cursor: pointer;
+}
+
